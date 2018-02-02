@@ -1,12 +1,14 @@
-
-
-.list {
-	font-weight: bold;
+img {
+	padding-bottom: 10px;
 }
 
 ul {
-  list-style-type: none;
+ 	list-style-type: none;
     padding-left:0;
+}
+
+.listLabels {
+	font-weight: bold;
 }
 
 .borderBig {
@@ -16,26 +18,16 @@ ul {
 	border-radius: 10px;
 }
 
-.border {
+.information {
 	border-style: ridge;
 	padding: 10px;
 	border-color: rgba(71,53,33,1);
-}
-.font{
 	font-size: 13px;
 }
 
-.cardSetting {
+.cardSettings {
 	box-shadow: 7px 9px 27px 1px rgba(0,0,0,0.75);
 	width: 300px;
 	padding: 10px;
 	background-color: rgba(162,119,70,1);
-}
-
-img {
-	padding-bottom: 10px;
-}
-
-.align {
 	text-align: center;
-}
